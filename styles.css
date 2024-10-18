@@ -1,0 +1,422 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Roboto", sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #e3f2fd;
+    color: #333;
+
+}
+/*Titulo*/
+
+#titulo{
+    color: #5e9984;
+}
+
+/*INICIO HEADER */
+.nav{
+    background: color #1a1f1d;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+}
+
+.nav-list{
+    display:flex ;
+    align-items: center;
+    list-style: none;
+    margin-right:24px ;
+    
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #5e9984;
+    padding: 20px;
+}
+.nav-list a:hover{
+    color: #FFFFFF;
+
+}
+
+/*FIM HEADER*/
+
+/*INICIO MAIN*/
+.main{
+    width: 100%;
+    background-color: #5e9984;
+    height: calc(100vh - 80px);
+    background-image: url("img/imag.1.jpg");
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.main h1{
+    color: #FFFFFF;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px epx 4px rgba(0,0,0,0.3);
+}
+
+.main p{
+    font-size: 20px;
+    font-style: italic;
+    color: #1e96FC;
+    margin: top 10px; ;
+    margin-bottom: 30px;
+      
+}
+.saiba-mais{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 0;
+    padding: 14px;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.main a{
+    text-decoration: none;
+    color: #181818
+}
+
+/*FIM DO MAIN*/
+
+/*INICIO SOBRE*/
+     
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; 
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    }
+
+#sobre {
+    background-color: #ffffff; 
+    padding: 40px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    max-width: 1000px; 
+    margin: 20px auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 40px; 
+    }
+
+#sobre h2 {
+    font-size: 36px;
+    color: #2c3e50; 
+    margin-bottom: 20px;
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    }
+
+#sobre p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+    }
+
+#sobre img {
+    max-width: 400px; 
+    width: 100%; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    }
+
+@media (max-width: 768px) {
+#sobre {
+    flex-direction: column; 
+    text-align: center; 
+    padding: 20px;
+    }
+
+#sobre img {
+    max-width: 100%; 
+    }
+}    
+
+/*FIM SOBRE*/
+
+/* INICIO - Seção como participar*/
+
+#como-participar {
+    background-color: #f4f4f9; 
+    padding: 40px 20px; 
+    text-align: center; 
+    border-radius: 10px; 
+}
+
+#como-participar h2 {
+    font-size: 32px;
+    color: #333; 
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.participar-opcoes {
+    display: flex; 
+    justify-content: space-around; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.participar-opcoes div {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 20px; 
+    width: 300px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.participar-opcoes div:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.participar-opcoes h3 {
+    font-size: 24px;
+    color: #5e9984; 
+    margin-bottom: 10px;
+}
+
+.participar-opcoes p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6; 
+}
+
+/*FIM -Seção como participar*/
+
+/* INICIO - Educação sustentavel*/
+       
+#educacao {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    }
+
+      
+#educacao h2 {
+    font-size: 36px;
+    color: #2c3e50; 
+    margin-bottom: 30px;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    }
+
+.educacao-recursos {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    }
+
+.educacao-recursos div {
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 20px;
+    width: 30%; 
+    min-width: 280px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.educacao-recursos div:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+    }
+       
+.educacao-recursos h3 {
+    font-size: 24px;
+    color: #5e9984; 
+    margin-bottom: 10px;
+    }
+
+.educacao-recursos p {
+    font-size: 16px;
+    color: #555; 
+    line-height: 1.6;
+    }
+
+@media (max-width: 768px) {
+.educacao-recursos div {
+    width: 100%; 
+    }
+}
+/* FIM - Educação sustentavel*/
+
+
+/*INICIO - seção Proximos eventos*/
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; 
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    }
+
+#eventos {
+    background-color: #ffffff; 
+    padding: 40px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center; 
+    }
+
+#eventos h2 {
+    font-size: 36px;
+    color: #2c3e50; 
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    }
+       
+#eventos p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+    }
+
+#lista-eventos {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    }
+       
+#lista-eventos li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+#lista-eventos li:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    }
+
+#lista-eventos li h3 {
+    font-size: 24px;
+    color: #27ae60; 
+    margin: 0 0 10px 0;
+    }
+       
+#lista-eventos li p {
+    font-size: 16px;
+    color: #666;
+    }
+@media (max-width: 768px) {
+#eventos {
+    padding: 20px;
+            }
+#lista-eventos li {
+    padding: 15px;
+    }
+}
+/*Fim- Lista eventos*/
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; 
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+#contato {
+    background-color: #ffffff; 
+    padding: 40px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    max-width: 600px; 
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+#contato h2 {
+    font-size: 36px;
+    color: #2c3e50; 
+    margin-bottom: 30px;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+}
+
+#form-contato {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+#form-contato label {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left; 
+    color: #333;
+}
+
+#form-contato input,
+#form-contato textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease;
+}
+
+#form-contato input:focus,
+#form-contato textarea:focus {
+    border-color: #27ae60; 
+    outline: none; 
+}
+
+#form-contato button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff; 
+    background-color: #27ae60; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#form-contato button:hover {
+    background-color: #219150; 
+}
+
+@media (max-width: 600px) {
+    #contato {
+        padding: 20px;
+    }
+}
+
+
